@@ -1,5 +1,5 @@
 import tkinter as tk
-from data_display import DataDisplay
+from DataDisplay import DataDisplay
 
 API_URL = "https://671be4172c842d92c381a4aa.mockapi.io/Test"
 

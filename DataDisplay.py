@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from api_manager import APIManager
+from ApiManager import APIManager
 
 class DataDisplay:
     def __init__(self, root, api_url):
