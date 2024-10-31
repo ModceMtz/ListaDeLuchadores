@@ -43,10 +43,4 @@ class MainApp:
         record = self.fetch_data_client.fetch_data_by_id(record_id)
         self.table_view.show_record(record)
 
-import tkinter as tk
-from MainApp import MainApp
 
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = MainApp(root)
-    root.mainloop()
