@@ -10,7 +10,7 @@ class window:
         self.root.geometry("600x500")
         self.root.resizable(False, False)
 
-        # Inicializa FetchData
+
         self.fetch_data_client = FetchData()
 
         # Tabla
@@ -18,7 +18,7 @@ class window:
         table_frame.pack(fill=tk.BOTH, expand=True, pady=10)
         self.table_view = TableView(table_frame)
 
-        # Campo de entrada y botones
+        
         self.entry_id = tk.Entry(self.root)
         self.entry_id.pack(pady=10)
 

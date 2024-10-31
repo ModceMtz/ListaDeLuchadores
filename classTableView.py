@@ -7,12 +7,12 @@ class TableView:
         for col in ("ID", "Luchador", "Nombre", "Apellido", "Ciudad"):
             self.table.heading(col, text=col)
 
-        # Scrollbars
+
         scrollbar_y = ttk.Scrollbar(parent, orient="vertical", command=self.table.yview)
         scrollbar_x = ttk.Scrollbar(parent, orient="horizontal", command=self.table.xview)
         self.table.configure(yscroll=scrollbar_y.set, xscroll=scrollbar_x.set)
 
-        # Empaquetado
+
         scrollbar_y.pack(side=tk.RIGHT, fill=tk.Y)
         scrollbar_x.pack(side=tk.BOTTOM, fill=tk.X)
         self.table.pack(fill=tk.BOTH, expand=True)
