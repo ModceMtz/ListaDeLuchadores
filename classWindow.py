@@ -3,7 +3,7 @@ from tkinter import messagebox
 from classFetchData import FetchData
 from classTableView import TableView
 
-class MainApp:
+class window:
     def __init__(self, root):
         self.root = root
         self.root.title("Aplicación de Luchadores")
