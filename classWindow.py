@@ -28,6 +28,9 @@ class window:
         self.load_button = tk.Button(self.root, text="Cargar todos los registros", command=self.load_data)
         self.load_button.pack(pady=5)
 
+        self.load_button = tk.Button(self.root, text="Actualizar tabla", command=self.load_data)
+        self.load_button.pack(pady=5)
+
     def load_data(self):
         """Carga todos los datos en la tabla."""
         data = self.fetch_data_client.fetch_data()
