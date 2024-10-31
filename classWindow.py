@@ -13,12 +13,12 @@ class window:
 
         self.fetch_data_client = FetchData()
 
-        # Tabla
+
         table_frame = tk.Frame(self.root)
         table_frame.pack(fill=tk.BOTH, expand=True, pady=10)
         self.table_view = TableView(table_frame)
 
-        
+
         self.entry_id = tk.Entry(self.root)
         self.entry_id.pack(pady=10)
 
