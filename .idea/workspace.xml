@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c39e4c6-3460-4180-9ac1-f43364d46c61" name="Changes" comment="3">
-      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classTableView.py" beforeDir="false" afterPath="$PROJECT_DIR$/classTableView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/classWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/lista.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,27 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.App.executor": "Run",
-    "Python.Lista.executor": "Run",
-    "Python.MainApp.executor": "Run",
-    "Python.api_manager.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.classFetchData.executor": "Run",
-    "Python.classWindow.executor": "Run",
-    "Python.data_display.executor": "Run",
-    "Python.lista.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.App.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classFetchData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classTableView.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_display.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +89,8 @@
       <workItem from="1730231908421" duration="37000" />
       <workItem from="1730232118850" duration="3412000" />
       <workItem from="1730378223272" duration="8731000" />
-      <workItem from="1730401600763" duration="5919000" />
+      <workItem from="1730401600763" duration="8558000" />
+      <workItem from="1730481663155" duration="405000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -147,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730407078113</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="3">
+      <option name="closed" value="true" />
+      <created>1730407999982</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730407999982</updated>
+    </task>
+    <task id="LOCAL-00009" summary="3">
+      <option name="closed" value="true" />
+      <created>1730408172469</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730408172469</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +195,8 @@
     <SUITE FILE_PATH="coverage/ListaDeLuchadores$api_manager.coverage" NAME="api_manager Coverage Results" MODIFIED="1730183618056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ListaDeLuchadores$MainApp.coverage" NAME="MainApp Coverage Results" MODIFIED="1730402153199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ListaDeLuchadores$lista.coverage" NAME="lista Coverage Results" MODIFIED="1730406853628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ListaDeLuchadores$App.coverage" NAME="App Coverage Results" MODIFIED="1730407263981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ListaDeLuchadores$classWindow.coverage" NAME="classWindow Coverage Results" MODIFIED="1730406923399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ListaDeLuchadores$classTableView.coverage" NAME="classTableView Coverage Results" MODIFIED="1730410288835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ListaDeLuchadores$App.coverage" NAME="App Coverage Results" MODIFIED="1730410292492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ListaDeLuchadores$classWindow.coverage" NAME="classWindow Coverage Results" MODIFIED="1730408613000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

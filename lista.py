@@ -27,7 +27,7 @@ def load_data():
     data = fetch_data()
     for record in data:
         table.insert("", "end",
-                     values=(record["id"], record["Luchador"], record["Nombre"], record["Apellido"], record["Ciudad"]))
+                     values=(record["id"], record["LUCHADOR"], record["Nombre"], record["Apellido"], record["Ciudad"]))
 
 
 # Función para mostrar un registro específico por ID en la tabla principal
@@ -48,7 +48,7 @@ def show_record_by_id():
     if selected_record:
         # Insertar solo el registro seleccionado en la tabla principal
         table.insert("", "end", values=(
-            selected_record["id"], selected_record["Luchador"],
+            selected_record["id"], selected_record["LUCHADOR"],
             selected_record["Nombre"], selected_record["Apellido"], selected_record["Ciudad"]
         ))
     else:
@@ -66,7 +66,7 @@ table_frame = tk.Frame(root)
 table_frame.pack(fill=tk.BOTH, expand=True, pady=10)
 
 # Tabla para mostrar los registros
-columns = ("ID", "Luchador", "Nombre", "Apellido", "Ciudad")
+columns = ("ID", "LUCHADOR", "Nombre", "Apellido", "Ciudad")
 table = ttk.Treeview(table_frame, columns=columns, show="headings")
 for col in columns:
     table.heading(col, text=col)

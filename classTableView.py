@@ -3,8 +3,8 @@ from tkinter import ttk, messagebox
 
 class TableView:
     def __init__(self, parent):
-        self.table = ttk.Treeview(parent, columns=("ID", "Luchador", "Nombre", "Apellido", "Ciudad"), show="headings")
-        for col in ("ID", "Luchador", "Nombre", "Apellido", "Ciudad"):
+        self.table = ttk.Treeview(parent, columns=("ID", "LUCHADOR", "Nombre", "Apellido", "Ciudad"), show="headings")
+        for col in ("ID", "LUCHADOR", "Nombre", "Apellido", "Ciudad"):
             self.table.heading(col, text=col)
 
 
@@ -21,13 +21,13 @@ class TableView:
         """Carga los datos en la tabla."""
         self.clear_table()
         for record in data:
-            self.table.insert("", "end", values=(record["id"], record["Luchador"], record["Nombre"], record["Apellido"], record["Ciudad"]))
+            self.table.insert("", "end", values=(record["id"], record["LUCHADOR"], record["Nombre"], record["Apellido"], record["Ciudad"]))
 
     def show_record(self, record):
         """Muestra un registro específico en la tabla."""
         self.clear_table()
         if record:
-            self.table.insert("", "end", values=(record["id"], record["Luchador"], record["Nombre"], record["Apellido"], record["Ciudad"]))
+            self.table.insert("", "end", values=(record["id"], record["LUCHADOR"], record["Nombre"], record["Apellido"], record["Ciudad"]))
         else:
             messagebox.showinfo("Información", "Registro no encontrado.")
 
